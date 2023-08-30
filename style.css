@@ -1,0 +1,62 @@
+/* Estilos para o site com cores mais claras voltadas para o rosa */
+body {
+    background-color: #f8f4f4;
+    color: #333;
+}
+
+.navbar {
+    background-color: #fdeef3;
+}
+
+.navbar-brand {
+    color: #e54e8f;
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+    color: #333;
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    margin-top: 50px;
+}
+
+footer {
+    background-color: #fdeef3;
+    color: #777;
+    padding: 20px 0;
+}
+
+/* Estilos específicos para textos e links */
+h1, h2 {
+    color: #e54e8f;
+}
+
+a {
+    color: #e54e8f;
+}
+
+a:hover {
+    color: #c33a6d;
+}
+
+/* Responsividade para telas menores */
+@media (max-width: 768px) {
+    .navbar-expand-lg .navbar-nav .nav-link {
+        color: #333;
+    }
+}
+
+/* Estilos para centralizar o vídeo */
+.embed-responsive-centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
